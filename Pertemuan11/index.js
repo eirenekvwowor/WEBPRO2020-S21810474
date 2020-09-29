@@ -52,15 +52,14 @@ const namaJenisAnjing = () => {
 //2. Implicit return -> implicit return value adalah suatu kondisi di mana sebuah fungsi langsung mengembalikan nilai tanpa ada deklarasi variabel atau operasi lainnya di dalamnya.
 //contoh :
 
-/*
+
 const greeting = (nama) => `Hi ${nama}`;
 
 console.log(greeting('eirene kv ')); // Output: Hi eirene kv
-*/
 
 
 //TUGAS DARI SIR
-function yearUntilRetirement (year, firstName){
+ /*function yearUntilRetirement (year, firstName){
   var age = 28;
   var retirement = 65- age;
       if(retirement >0){
@@ -69,19 +68,18 @@ function yearUntilRetirement (year, firstName){
       }else{
         console.log (firstName +"is alrady retired.");
     }
-}
+}*/
 
 //ubah ke ES6
 
 const yearUntilRetirement =(year,firstName) => {
-  const age=28;
+  const age= 28;
   const retirement = 65 -age;
   if (retirement > 0){
-    console.log('$ {firstName} retired in $ {retirement}year.');
-
+    console.log(` ${firstName} retired in ${retirement}year.`);
   }else
   {
-    console.log('${firsName'} is alrady retired');
+    console.log(`${firsName} is alrady retired`);
   }
 }
 yearUntilRetirement(2020,"Jon");
