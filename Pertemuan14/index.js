@@ -3,7 +3,7 @@
     Memecah item atau property pada array atau abject ke dalam variable yang berbeda
 */
 //1. array
-const colors = ["merah","kuning","hijau"];
+const colors = ["putih","silver","biru"];
 
 //biasanya
 //let satu = colors[0];
@@ -20,7 +20,7 @@ let [satu, dua, tiga] = colors;
 
 //2. Object
 const user ={
-    name:"Chelsea",
+    name:"eirenekv",
     gender:"female",
     age:19,
 };

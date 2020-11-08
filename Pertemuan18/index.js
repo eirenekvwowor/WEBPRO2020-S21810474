@@ -81,6 +81,6 @@ const getNameById = async () => {
     
 getNameById().then(result => console.log(result));
 //untuk memanggil async tidak bisa dipanggil seperti biasa
-//seperti
+//misal
 /* const result = getNameById();
 console.log(result); */
