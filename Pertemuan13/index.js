@@ -45,7 +45,7 @@ const gabung6 = [...angka1, ...angka2, 11, ...angka3];
 console.log(gabung6);
 
 let orang = {
-    nama : "vindy",
+    nama : "eirenekv",
     umur : 19,
 };
 
