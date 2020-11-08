@@ -1,4 +1,4 @@
- export const hello = (user) => {
+export const hello = (user) => {
     console.log(`Hello, ${user} `);
 }
 
